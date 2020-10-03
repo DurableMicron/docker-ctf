@@ -1,4 +1,10 @@
-# Part 2 Solution
+# Part 3 Solution
 
-The difference between this and the first is simply that the build arg is injected rather than being hardcoded in the dockerfile, however the solution is the same. 
+By looking at the run command we can see that it is injected via an env variable rather than a a build arg, this means that it is unavailable in docker history. 
+
+Since the container also exits immediately we also cannot `docker exec` into it, however we can insepct it. 
+
+Using `docker container ls -a` we can find the id of the stopped container. 
+
+then using `docker inspect` we can view some info, including the env vars which contain our flag.
 
