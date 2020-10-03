@@ -1,2 +1,2 @@
-docker build -t part-3 .
-docker run --env SUPER_SECRET_FLAG=flag-333 part-3  
+docker build -t part-4 .
+docker run part-4
