@@ -1,4 +1,4 @@
-# Docker CTF
+# Docker CTF - WIP
 This repo contains a series of simple docker ctf challenges that scale in difficulty. 
 
 For each part the goal is to a find the flags that are in the format `flag-xxx`.
