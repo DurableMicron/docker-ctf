@@ -1,7 +1,7 @@
 # Docker CTF
 This repo contains a series of simple docker ctf challenges that scale in difficulty. 
 
-For each part the goal is to a find the flags that are in the format `flag-xxxx`.
+For each part the goal is to a find the flags that are in the format `flag-xxx`.
 
 ## How to run?
 - Requires docker with buildkit enabled. (May work without but I was using buildkit).
@@ -10,7 +10,6 @@ For each part the goal is to a find the flags that are in the format `flag-xxxx`
 
 | file | description |
 | ----- | ------ |
-| `Readme.md` | Overview of the problem |
 `Dockerfile` |The dockerfile used to build the image
 |`./run.sh` | A command that builds and runs the docker image, you may need to inspect this to see the command arguments used. 
 |`solution.md` | Overview of the solution
