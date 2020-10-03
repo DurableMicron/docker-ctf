@@ -1,4 +1,4 @@
-#Part 1 Solution
+# Part 2 Solution
 
-This is a fairly trivial example, the flag is harded coded in the dockerfile, this means you can use the `docker history` command to view the layer and thus see the flag value.
+The difference between this and the first is simply that the build arg is injected rather than being hardcoded in the dockerfile, however the solution is the same. 
 
