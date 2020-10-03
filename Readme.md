@@ -5,7 +5,9 @@ For each part the goal is to a find the flags that are in the format `flag-xxx`.
 
 ## How to run?
 - Requires docker with buildkit enabled. (May work without but I was using buildkit).
-- For each part there are 4 files.  
+- I was using git bash on windows, but if you can run the docker commands manually that is also ok
+- For each part there are 3 files (maybe more if the image is copying)
+- execute `./run.sh` which will build and run the container.   
 
 
 | file | description |
